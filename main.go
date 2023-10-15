@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"https://github.com/callmesilva/Go/tree/main/structs"
 	"strconv"
 )
 
@@ -90,13 +91,12 @@ func listShowcase() {
 	// 	fmt.Printf("The %v have a score of %v\n", team, score)
 	// }
 
-	//struct
-	// 	var c Customer
-	// 	c.First = "Enrique"
-	// 	c.Last = "Silva"
-	// 	c.Balance = 10_000
-	// 	c.Age = 35
-	// 	c.Height = 1.76
+	c := structs.Customer
+	c.First = "Enrique"
+	c.Last = "Silva"
+	c.Balance = 10_000
+	c.Age = 35
+	c.Height = 1.76
 
-	// fmt.Printf("%v %v (%v) has a balance of %v\n", c.first, c.last, c.age, c.height)
+	fmt.Printf("%v %v (%v) has a balance of %v\n", c.first, c.last, c.age, c.height)
 }

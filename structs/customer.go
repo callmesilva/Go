@@ -1,4 +1,4 @@
-package customer
+package structs
 
 type Customer struct {
 	First   string
